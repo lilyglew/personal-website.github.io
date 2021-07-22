@@ -1,0 +1,117 @@
+* { /*Universal alterings*/
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* STYLE SECTIONING TAGS */
+
+body {/*changes overall style of everything within the body tag*/
+  /*background-color: #FED8D7;*/
+  background-image: linear-gradient(#FED8D7, #DEBDFF);
+  font-family: "Verdana", sans-serif;
+  color: rgb(15, 40, 74)
+}
+
+
+main { /*sets all of the margins to be a comfortable size within the main tag*/
+  margin-top: 0;
+  margin-bottom:0;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+/* STYLE TEXT */
+
+h1 { /*changes header settings*/
+  color: #4C3669;
+  background-color: #F5C6D3;
+  text-shadow: 1px 1px gray;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 36px;
+}
+
+h2 { /*changes header settings*/
+  color: #4C3669;
+  /*text-shadow: 1px 1px gray;*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  font-size: 30px;
+}
+
+h4 { /*changes header settings*/
+  color: #4C3669;
+  /*text-shadow: 1px 1px gray;*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  font-size: 23px;
+}
+
+#about { /*id for the paragraph of text on the home page*/
+  color: rgb(15, 40, 74);
+  font-family: "Optima", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+p { /*changes settings for all general paragraphs*/
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.blog { /*class that changes content on the blog page*/
+  text-align: left;
+  line-height: 1.5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.moreSpace { /*class that adds a bottom margin on the home page*/
+  margin-bottom: 25px;
+}
+
+/* STYLE IMAGES */
+
+img {
+  border-radius: 3%;
+  max-height: 200 px;
+  border: 3px solid #CF92AD;
+}
+
+.archery { /*class for archery image in portfolio*/
+  max-height: 250px;
+  border-radius: 5%;
+}
+
+#saturn {
+  max-height: 300px;
+  margin-bottom: 25px;
+}
+/* STYLE NAV BAR */
+
+ul{ /*changes the overall appearance of the nav bar*/
+  list-style-type: none;
+  background-color: #F2B8C0;
+  overflow: hidden;
+  padding: 8px;
+}
+
+li { /*changes the orientation of the links in the nav bar*/
+  display: inline;
+}
+
+li a { /*changes color of nav bar & text, as well as the size and space in between*/
+  text-decoration: none;
+  color: #4C3669;
+  font-size: 1.1em;
+  padding: 1em;
+}
+
+li a:hover { /*adds different colored hover indicators on the buttons*/
+  background-color: #FFCBE6;
+}
